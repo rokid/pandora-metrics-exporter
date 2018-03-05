@@ -1,0 +1,6 @@
+---
+extends: "standard-with-typescript"
+parser: "typescript-eslint-parser"
+rules:
+  typescript/explicit-function-return-type: [ 0 ]
+  typescript/explicit-member-accessibility: [ 0 ]

@@ -1,0 +1,30 @@
+{
+  "name": "pandora-metrics-exporter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.0.44",
+    "@types/koa-router": "^7.0.27",
+    "@types/node": "^9.4.6",
+    "@types/urllib": "^2.25.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-with-typescript": "^3.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2",
+    "typescript-eslint-parser": "^14.0.0"
+  },
+  "dependencies": {
+    "dorapan": "^1.0.5",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "urllib": "^2.26.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext ts,js src types"
+  }
+}
