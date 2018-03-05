@@ -8,8 +8,8 @@ export default class Exporter extends WebServer {
   }
 
   public getPort () {
-    const port: number = process.env.DASHBOARD_PORT ? Number(process.env.DASHBOARD_PORT) : 9082
-    const host: string = process.env.DASHBOARD_HOST || '127.0.0.1'
+    const port: number = process.env.METRICS_PORT ? Number(process.env.METRICS_PORT) : 9082
+    const host: string = process.env.METRICS_HOST || '127.0.0.1'
     return { port, host }
   }
 

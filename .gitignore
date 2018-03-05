@@ -1,1 +1,5 @@
+# Package generated
 node_modules/
+
+# Built Archives
+dist/
