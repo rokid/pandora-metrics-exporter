@@ -24,6 +24,9 @@
     "koa-router": "^7.4.0",
     "urllib": "^2.26.0"
   },
+  "bin": {
+    "pandora-metrics-exporter-dir": "bin/pandora-metrics-exporter.js"
+  },
   "scripts": {
     "lint": "eslint --ext ts,js src types"
   }

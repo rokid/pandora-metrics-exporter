@@ -2,7 +2,7 @@ module.exports = (pandora) => {
   pandora
     .process('worker')
     .scale(1)
-    .env({ METRICS_HOST: '0.0.0.0', METRICS_APP_NAME: 'pandora-metrics-exporter' })
+    .env({ METRICS_APP_NAME: 'pandora-metrics-exporter' })
   pandora
     .process('worker')
     .nodeArgs()
