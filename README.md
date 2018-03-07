@@ -4,20 +4,16 @@ Expose [Pandora.js] metrics to [Prometheus] scrappers
 
 ## Usage
 
-### Install globally
+### Install
 
 ```bash
 $ npm i pandora-metrics-exporter -g # install pandora-metrics-exporter globally
-$ pandora start --name exporter `pandora-metrics-exporter-dir` # start it
+$ export PANDORA_CONFIG=`pandora-metrics-exporter-dir`
+
+$ pandora exit && pandora start any-app # restart pandora daemon
 ```
 
-Now the metrics is available at default path `http://127.0.0.1:9082/metrics`
-
-### Environs
-
-- `METRICS_HOST`: web server host address listening to, default: `127.0.0.1`
-- `METRICS_PORT`: web server port listening to, default: `9082`
-
+Now the metrics is available at default path `http://127.0.0.1:7002/prometheus`
 
 [Pandora.js]: http://www.midwayjs.org/pandora/en/
 [Prometheus]: https://prometheus.io

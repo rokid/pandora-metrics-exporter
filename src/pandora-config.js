@@ -1,4 +1,4 @@
-const { MetricsEndPoint } = require('pandora-metrics')
+const { MetricsEndPoint } = require('pandora')
 const { PrometheusResource } = require('./PrometheusResource')
 
 module.exports.default = {
