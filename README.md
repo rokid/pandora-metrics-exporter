@@ -12,7 +12,7 @@ Expose [Pandora.js] metrics to [Prometheus] scrappers
 $ npm i pandora-metrics-exporter -g # install pandora-metrics-exporter globally
 $ export PANDORA_CONFIG=`pandora-metrics-exporter-dir`
 
-$ pandora exit && pandora start any-app # restart pandora daemon
+$ pandora exit && pandora start --name dashboard `pandora-dashboard-dir`  # restart pandora daemon
 ```
 
 Now the metrics is available at default path `http://127.0.0.1:7002/prometheus`
