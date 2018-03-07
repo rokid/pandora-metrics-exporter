@@ -1,5 +1,7 @@
 # Pandora Metrics Exporter
 
+![npm](https://img.shields.io/npm/v/npm.svg)
+
 Expose [Pandora.js] metrics to [Prometheus] scrappers
 
 ## Usage
