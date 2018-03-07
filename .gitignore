@@ -3,3 +3,6 @@ node_modules/
 
 # Built Archives
 dist/
+
+# Common generated
+*.log
